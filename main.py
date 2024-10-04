@@ -2,6 +2,7 @@
 from add_book import addBook
 from view_all_books import viewAllBooks
 from display_option import displayOption
+from delete_book import deleteBook
 import os
 
 while True:
@@ -16,7 +17,7 @@ while True:
         viewAllBooks()
     
     elif selectedOption == "3":
-        pass
+        deleteBook()
     
     elif selectedOption == "4":
         pass
